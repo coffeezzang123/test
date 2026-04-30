@@ -1,0 +1,9 @@
+{
+  "name": "namane-golden-may-surprise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NAMANE Card Golden May Surprise event landing page",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
