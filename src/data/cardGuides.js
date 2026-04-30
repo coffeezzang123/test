@@ -1,0 +1,47 @@
+window.cardGuideTabs = [
+  {
+    id: "app-kiosk",
+    label: "앱/키오스크",
+    eyebrow: "첫번째",
+    title: "NAMANE 앱/키오스크 이용하기",
+    image: "/images/kor_2.png",
+    steps: [
+      "NAMANE 앱에서 NAMANE 메뉴 선택",
+      "나마네 카드 디자인 선택",
+      "전면형 선택 후 자유롭게 카드 디자인",
+      "디자인 QR 저장",
+      "키오스크에서 카드 디자인하기 선택",
+      "디자인 QR 스캔 후 결제",
+    ],
+  },
+  {
+    id: "web-kiosk",
+    label: "웹/키오스크",
+    eyebrow: "두번째",
+    title: "NAMANE 웹/키오스크 이용하기",
+    image: "/images/kor_3.png",
+    steps: [
+      "design.namanecard.com 접속",
+      "전면형 선택",
+      "자유롭게 카드 디자인",
+      "디자인 QR 저장",
+      "키오스크에서 카드 디자인하기 선택",
+      "디자인 QR 스캔 후 결제",
+    ],
+  },
+  {
+    id: "kiosk",
+    label: "키오스크",
+    eyebrow: "세번째",
+    title: "NAMANE 키오스크 이용하기",
+    image: "/images/kor_4.png",
+    steps: [
+      "NAMANE 키오스크에서 카드 디자인하기 선택",
+      "좌측 QR 스캔 후 디자인 웹 접속",
+      "전면형 선택",
+      "자유롭게 카드 디자인",
+      "디자인 QR 생성",
+      "QR 스캔 후 결제",
+    ],
+  },
+];

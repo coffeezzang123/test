@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NAMANE Card Golden May Surprise 이벤트 랜딩페이지"
+    />
+    <title>NAMANE Card | Golden May Surprise</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script>
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              night: "#170b1d",
+              plum: "#281136",
+              violetPop: "#8134ff",
+              lavender: "#eee1ff",
+              gold: "#ffd56a",
+              honey: "#ffb83d",
+              mint: "#6fffd2",
+            },
+            boxShadow: {
+              glow: "0 0 34px rgba(129, 52, 255, 0.42)",
+              gold: "0 0 34px rgba(255, 213, 106, 0.3)",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="/vendor/tailwindcss.js"></script>
+    <script src="/vendor/react.production.min.js"></script>
+    <script src="/vendor/react-dom.production.min.js"></script>
+    <script src="/vendor/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel" src="./src/data/cardGuides.js"></script>
+    <script type="text/babel" src="./src/components/Countdown.jsx"></script>
+    <script type="text/babel" src="./src/components/Hero.jsx"></script>
+    <script type="text/babel" src="./src/components/Summary.jsx"></script>
+    <script type="text/babel" src="./src/components/EventOne.jsx"></script>
+    <script type="text/babel" src="./src/components/EventTwo.jsx"></script>
+    <script type="text/babel" src="./src/components/HowToMakeCard.jsx"></script>
+    <script type="text/babel" src="./src/components/Notice.jsx"></script>
+    <script type="text/babel" src="./src/main.jsx"></script>
+  </body>
+</html>
